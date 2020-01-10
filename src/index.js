@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap-social/bootstrap-social.css';
 import 'typeface-aleo';
+
 import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
