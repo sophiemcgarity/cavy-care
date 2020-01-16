@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function RenderFoodGuideItem({ food }) {
     return (
@@ -25,7 +26,7 @@ function FoodGuide(props) {
     });
 
     return (
-        <div className="container">
+        <div className="container pageContainer">
             <div className="row">
                 {foodGuide}
             </div>

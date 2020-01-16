@@ -37,4 +37,9 @@ h2 {
 
 .site-footer a {
   color: white;
+  margin-top: 100%;
+}
+
+.pageContainer{
+  min-height: 100vh;
 }
