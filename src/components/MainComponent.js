@@ -4,18 +4,23 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Housing from './HousingComponent';
+import Social from './SocialComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { FOODLIST } from '../shared/foodList';
 import { SOURCES } from '../shared/sources';
+import { HOUSELIST } from '../shared/housingList';
 
 class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
       foodList: FOODLIST,
-      sources: SOURCES
+      sources: SOURCES,
+      houseList: HOUSELIST
     };
   }
+
+//on task SPA, react router params
 
   render() {
 
@@ -33,9 +38,15 @@ class Main extends Component {
         <Header />
         <Switch>
           <Route path='/home' component={HomePage} />
+
           <Route exact path='/foodguide' render={() => <FoodGuide foodList={this.state.foodList} />} />
-          <Route exact path='/housing' component={Housing} />
-          <Redirect to='/home' />
+
+          <Route exact path='/housing' render={() => <Housing houseList={this.state.houseList} />} />
+
+          <Route exact path='/socializing' component={Social} />
+
+          <Redirect path='/home' component={HomePage} />
+
         </Switch>
         <Footer />
       </div>
