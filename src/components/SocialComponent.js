@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, ButtonToggle } from 'reactstrap';
-
+import Fade from 'react-reveal/Fade';
 
 function Social() {
     return (
         <React.Fragment>
             <Container className="pageContainer">
-                <h1 className="text-center">Socializing</h1>
+                <Fade top>
+                    <h1 className="text-center">Socializing</h1>
+                </Fade>
                 <Row>
-
                     <video
                         loop
                         autoPlay

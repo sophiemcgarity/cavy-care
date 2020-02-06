@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, CardImg, Container, Row, Col } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
+
 
 
 function RenderHouseGuideItem({house}) {
@@ -8,7 +10,7 @@ function RenderHouseGuideItem({house}) {
             <Row className="mb-5">
                 <Col>
                     <p className="mt-5">{house.text}</p>
-                    <a href="https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-guinea-pigs/">More information RSPCA</a>
+                    <a href="https://mylifepets.com/best-guinea-pig-bedding/">More information mylifepets</a>
                 </Col>
                 <Col>
                 <h3>{house.name}</h3>
@@ -34,11 +36,14 @@ function Housing(props) {
     return (
         <div className="container pageContainer">
             <div className="row">
-                <div className="col">
-                    <h1 className="text-center">Housing</h1>
-                </div>
+                <Fade top>
+                    <div className="col">
+                        <h1 className="text-center">Housing</h1>
+                    </div>
+                </Fade>
             </div>
             <Row className="mb-5">
+                <Fade>
                 <Col>
                     <h3 className="text-center">Guidelines set by the Humane Society of the United States</h3>
                     <ul>
@@ -56,11 +61,14 @@ function Housing(props) {
                         </li>
                     </ul>
                 </Col>
+                </Fade>
             </Row>
             <h2 className="text-center">Bedding Types</h2>
             <Row className="mt-5">
                 <Col>
-                    {housing}
+                    <Fade>
+                        {housing}
+                    </Fade>
                 </Col>
             </Row>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardImg, Container, Row, Col } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
 
 function RenderFoodGuideItem({ food }) {
     return (
@@ -32,8 +33,12 @@ function FoodGuide(props) {
 
     return (
         <div className="pageContainer">
-            <h1 className="text-center">Food Guide</h1>
-            {foodGuide}
+            <Fade top>
+                <h1 className="text-center">Food Guide</h1>
+            </Fade>
+            <Fade>
+                {foodGuide}
+            </Fade>
         </div>
     );
 };

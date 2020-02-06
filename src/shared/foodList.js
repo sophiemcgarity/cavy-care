@@ -24,7 +24,7 @@ export const FOODLIST = [
         id: 3,
         name: "Vitamin C and Treats",
         featured: false,
-        image: "",
+        image: "assets/images/vitaminc.jpg",
         text: "Provide your guinea pigs with a dietary source of Vitamin C because (like humans), guinea pigs cannot synthesise Vitamin C from other food substances. Vitamin C rich foods such as leafy green veggies and capsicums (green, orange, and red) should be fed to your guinea pigs daily. Foods like carrots, kiwifruit, berries, and pineapple are also great as a source of Vitamin C and a tasty treat for your guinea pigs but only feed them a few times a week, not every day, as these foods have quite a high sugar content."
     }    
 ];
