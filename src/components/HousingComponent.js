@@ -2,8 +2,6 @@ import React from 'react';
 import { Card, CardImg, Container, Row, Col } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 
-
-
 function RenderHouseGuideItem({house}) {
     return (
         <Container>
@@ -45,7 +43,7 @@ function Housing(props) {
             <Row className="mb-5">
                 <Fade>
                 <Col>
-                    <h3 className="text-center">Guidelines set by the Humane Society of the United States</h3>
+                    <h2>Guidelines set by the Humane Society of the United States</h2>
                     <ul>
                         <li>
                             {`One guinea pig:  7.5 square feet cage (minimum), but more is better; generally 30" x 36" is a good size.`}

@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 function RenderCard({ item }) {
     return (
         <React.Fragment>
-            <h2>{item.text}</h2>
+            <h3>{item.text}</h3>
             <Card>
                 <a href={item.link}><CardImg src={item.image} alt={item.name} /></a>
                 <CardBody>

@@ -45,7 +45,7 @@ class Main extends Component {
 
           <Route exact path='/socializing' component={Social} />
 
-      
+          <Redirect to={{pathname:'/home'}} />
 
         </Switch>
         <Footer />

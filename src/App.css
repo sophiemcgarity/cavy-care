@@ -9,8 +9,8 @@ h1, h2, h3, .card-body>h5 {
   font-family: "Raleway", sans-serif;
 }
 
-h2 {
-  color: #452415;
+h1, h3 {
+  color: #cc4f14;
 }
 
 .card-img-overlay h5 {
@@ -23,19 +23,27 @@ h2 {
   padding: 60px;
   margin-bottom: 2%;
   text-align: center;
-  border-bottom: 2px solid rgb(42, 179, 233);
+  border-bottom: 2px solid #cc4f14;
   background-color: white ;
   max-height: 250px;
 }
 
 .navbar-light {
-  float: left;
-  margin: 0 auto;
-  margin-left: 28%;
+  font-size: large;
+  margin-left: 25%;
 }
 
+.navToggler{
+  background-color: white;
+}
+
+svg{
+  color: #81310c;
+}
+
+
 .site-footer {
-  background-color: #452415;
+  background-color: #cc4f14;
   padding: 20px 0;
 }
 
