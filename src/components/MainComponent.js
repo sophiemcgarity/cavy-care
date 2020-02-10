@@ -5,6 +5,7 @@ import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Housing from './HousingComponent';
 import Social from './SocialComponent';
+import LogIn from './auth/LogIn';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { FOODLIST } from '../shared/foodList';
 import { SOURCES } from '../shared/sources';
@@ -44,6 +45,8 @@ class Main extends Component {
           <Route exact path='/housing' render={() => <Housing houseList={this.state.houseList} />} />
 
           <Route exact path='/socializing' component={Social} />
+
+          <Route path='/login' component={LogIn} />
 
           <Redirect to={{pathname:'/home'}} />
 
