@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cavy-care/static/css/main.1bdfa2c3.chunk.css",
-    "main.js": "/cavy-care/static/js/main.49b9f2cb.chunk.js",
-    "main.js.map": "/cavy-care/static/js/main.49b9f2cb.chunk.js.map",
+    "main.js": "/cavy-care/static/js/main.75019016.chunk.js",
+    "main.js.map": "/cavy-care/static/js/main.75019016.chunk.js.map",
     "runtime-main.js": "/cavy-care/static/js/runtime-main.01022891.js",
     "runtime-main.js.map": "/cavy-care/static/js/runtime-main.01022891.js.map",
     "static/css/2.da282de7.chunk.css": "/cavy-care/static/css/2.da282de7.chunk.css",
     "static/js/2.5dce06db.chunk.js": "/cavy-care/static/js/2.5dce06db.chunk.js",
     "static/js/2.5dce06db.chunk.js.map": "/cavy-care/static/js/2.5dce06db.chunk.js.map",
     "index.html": "/cavy-care/index.html",
-    "precache-manifest.e59519eec654eaf27341efbf81e8a8aa.js": "/cavy-care/precache-manifest.e59519eec654eaf27341efbf81e8a8aa.js",
+    "precache-manifest.0957f1ae1a0b5e388177d7f7c9d811d5.js": "/cavy-care/precache-manifest.0957f1ae1a0b5e388177d7f7c9d811d5.js",
     "service-worker.js": "/cavy-care/service-worker.js",
     "static/css/2.da282de7.chunk.css.map": "/cavy-care/static/css/2.da282de7.chunk.css.map",
     "static/css/main.1bdfa2c3.chunk.css.map": "/cavy-care/static/css/main.1bdfa2c3.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.da282de7.chunk.css",
     "static/js/2.5dce06db.chunk.js",
     "static/css/main.1bdfa2c3.chunk.css",
-    "static/js/main.49b9f2cb.chunk.js"
+    "static/js/main.75019016.chunk.js"
   ]
 }
