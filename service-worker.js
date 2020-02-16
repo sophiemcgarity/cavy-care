@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cavy-care/precache-manifest.d8f94c9d55ed5880ff745b6f12bd22cd.js"
+  "/cavy-care/precache-manifest.4b5610b180d5cf1872e1e96ea0c7bd9f.js"
 );
 
 self.addEventListener('message', (event) => {
