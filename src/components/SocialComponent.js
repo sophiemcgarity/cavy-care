@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, ButtonToggle } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 
 function Social() {

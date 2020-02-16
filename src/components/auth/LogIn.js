@@ -18,11 +18,11 @@ class LogIn extends Component {
     render() {
         return (
             <div className="container pageContainer">
-                <Fade up>
-                    <h1 className="text-center">Login</h1>
-                </Fade>
                 <Fade>
                     <form onSubmit={this.handleSubmit} className="col-5">
+                        <Fade up>
+                            <h1>Login</h1>
+                        </Fade>
                         <div className="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" onChange={this.handleChange} />
@@ -40,7 +40,6 @@ class LogIn extends Component {
                     </form>
                 </Fade>
             </div>
-
         );
     }
 }
