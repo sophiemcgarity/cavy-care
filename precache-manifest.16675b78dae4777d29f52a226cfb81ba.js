@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "badfa3535b04cb3373df4cc7ce021085",
+    "revision": "5ac02890524438b6ab33883fb43500f0",
     "url": "/cavy-care/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cavy-care/static/css/2.da282de7.chunk.css"
   },
   {
-    "revision": "1270a1c10fb6f74c8a7c",
+    "revision": "2b05808daf01f2bf2c29",
     "url": "/cavy-care/static/css/main.1bdfa2c3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cavy-care/static/js/2.5dce06db.chunk.js.LICENSE"
   },
   {
-    "revision": "1270a1c10fb6f74c8a7c",
-    "url": "/cavy-care/static/js/main.75019016.chunk.js"
+    "revision": "2b05808daf01f2bf2c29",
+    "url": "/cavy-care/static/js/main.73e8aaa6.chunk.js"
   },
   {
     "revision": "a1fb4a18c6527354c1e2",
