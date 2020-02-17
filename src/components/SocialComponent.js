@@ -21,7 +21,7 @@ function Social() {
                             left: 0
                         }}
                     >
-                        <source src="assets/videos/socialEating.mp4" />
+                        <source src="../../src/assets/videos/socialEating.mp4" />
                     </video>
                 </Row>
             </Container>
