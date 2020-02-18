@@ -8,5 +8,6 @@ React project inspired by my own two guinea pigs, Oreo and Apollo, to build a ce
 
 ## Future Developments
 - Expand the information base
+- Optimize file loading
 - Implement login system allowing users to add their own guinea pig profiles.
 - Add back end structure using Node.js, MongoDB and Express
