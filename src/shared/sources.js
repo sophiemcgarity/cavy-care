@@ -1,3 +1,5 @@
+import hsus from '../assets/images/hsus.jpg';
+
 export const SOURCES = [
     {
         id: 0,
@@ -5,7 +7,7 @@ export const SOURCES = [
         featured: true,
         text: "Is a guinea pig right for you?",
         description: "It can be tempting to acquire a guinea pig on impulse. After all, these little guys have a lot of appealing qualities; they're small, gentle, and personable, just to name a few. A great starter pet, right? Not necessarily. Here are some important questions to consider before you dive headlong into a relationship.",
-        image: "../src/assets/images/hsus.jpg",
+        image: hsus,
         link: "https://www.humanesociety.org/resources/guinea-pigs-right-pet-you"
     },
     {
@@ -13,7 +15,7 @@ export const SOURCES = [
         name: "The Humane Society of the United States",
         featured: false,
         text: "Guinea Pig Feeding",
-        image: "../assets/images/hsus.jpg",
+        image: hsus,
         link: "https://www.humanesociety.org/resources/guinea-pig-feeding"
     },
     {
@@ -21,7 +23,7 @@ export const SOURCES = [
         name: "The Humane Society of the United States",
         featured: false,
         text: "Guinea Pig Housing",
-        image: "../assets/images/hsus.jpg",
+        image: hsus,
         link: "https://www.humanesociety.org/resources/guinea-pig-housing"
     }
 ];

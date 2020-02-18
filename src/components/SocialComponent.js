@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
+import socialVid from '../assets/videos/socialEating.mp4';
 
 function Social() {
     return (
@@ -21,7 +22,7 @@ function Social() {
                             left: 0
                         }}
                     >
-                        <source src="../../src/assets/videos/socialEating.mp4" />
+                        <source src={socialVid}/>
                     </video>
                 </Row>
             </Container>
